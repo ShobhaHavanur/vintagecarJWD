@@ -1,0 +1,22 @@
+body{
+    width: 96%;
+    height: 80%;
+}
+
+.contact{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(149, 149, 241);
+}
+
+
+
+
+
+
+ 

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css"><link>
+    <title>Vintagecars Web Assessment</title>
+  </head>
+  <body>
+        <!-- NavBar starts here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5 px-4">
+            <div class="container-fluid">
+               
+                 <a class="navbar-brand" href="#">
+                        <img src="./images/car2.jpg" alt="Company Logo" width="30" height="30">
+                      </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#enquiries">Enquiries</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- NavBar ends here -->
+            <!-- Main Heading -->
+            <h1 class="text-center"><u>VINTAGE CARS FOR HIRE</u></h1>
+          <!-- Grid Starts here with four rows -->
+          <div class="container mt-5 px-3" id="cars">
+            <div class="row carimages">
+                <h6>Car Listings</h6>
+                <div class="col">
+                <!-- Cards Layout starts here-- cars images -->
+                <div class="card-group">
+                    <div class="card mx-2 border border-primary rounded-3">
+                      <img src="./images/car3.jpg" class="card-img-top " alt="An orange car in front of a house">
+                      <div class="card-body">
+                        <h5 class="card-title">Vintage Orange Sedan</h5>
+                        <p class="card-text">Car Type: Sedan <br>Doors : 4 </p>
+                                                    
+                       </div>
+                    </div>
+                    <div class="card mx-2 border border-primary rounded-3">
+                      <img src="./images/car4.jpg" class="card-img-top rounded-3" alt="Green vintage car on a field">
+                      <div class="card-body">
+                        <h5 class="card-title">Vintage Green Sports Car</h5>
+                        <p class="card-text">Car Type: Sedan <br> Doors : 2</p>
+                        </div>
+                    </div>
+                    <div class="card mx-2 border border-primary rounded-3">
+                        <img src="./images/car5.jpg" class="card-img-top rounded-3" alt="Pink vintage car near a Mansion">
+                        <div class="card-body">
+                          <h5 class="card-title">Pink Vintage Car</h5>
+                          <p class="card-text">Car Type: Sedan <br> Doors: 4</p>
+                         </div>
+                      </div>
+                    <div class="card mx-2 border border-primary rounded-3">
+                      <img src="./images/car1.jpg" class="card-img-top rounded-3" alt="Beautiful Red car on a road">
+                      <div class="card-body">
+                        <h5 class="card-title">Red Sedan Vintage Car</h5>
+                        <p class="card-text">Car Type: Sedan <br> Doors: 2</p>
+                       </div>
+                    </div>
+                  </div>
+                <!-- Cars images - Cards layout ends  -->
+            </div>
+            </div>
+              </div>
+
+            <div class="row mt-5" id="enquiries">
+                <!-- Form Starts here -->
+            <div class="col">
+                <form class="row g-3 p-3 mb-2 bg-secondary text-white mt-3 mx-3 ms-5">
+                    
+                    <h3>Enquire About a Car</h3>
+                    <div class="mb-1">
+                        <label for="formGroupExampleInput" class="form-label">Full Name</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="" required>
+                      </div>
+                    <div class="mb-6">
+                    <label for="inputEmail4" class="form-label ">Email address</label>
+                      <input type="email" class="form-control" id="inputEmail4"><br>
+                    </div>
+                
+                     <div class="md-6">
+                      <label for="inputState" class="form-label">Choose a Car</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>Green Car</option>
+                        <option selected>Red car</option>
+                        <option selected>Pink Car</option>
+                        <option selected>Orange Car</option>
+                        <option selected>Choose from...</option>                                               
+                      </select>
+                    </div>
+                    <label class="text">Comments</label><br>
+                    <div class="input-group">
+                                       
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Submit</button><br>
+                    </div>
+                  </form>
+                <!-- Form Ends here -->
+            </div>     
+          </div>  
+            <div class="row mt-5 px-2" id="contact">
+                <div class="col">
+                    <!-- Contact Section starts here -->
+                    <div class="container">
+                                     
+                        <h4 class="card-title">Contact</h4>
+                        <label id="address">Address: XX, Kinglake Drive,Melbourne, VIC 2034</label> <br>
+                        <label id="phone">Phone : 41xxxxxx</label><br>
+                        <label id="email">Email:shobha@gmail.com</label><br>
+                                                                  
+                        <!--Google map-->
+                        <div     id="map-container-google-2" class=" map-container" style="height: 200px">
+                        <iframe src="https://maps.google.com/maps?q=melbourne&t=&z=13&ie=UTF8&iwloc=&output=embed" class="border border-5 border-dark"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact section ends here -->
+            </div>
+    
+        </div>
+          <!-- Grid Ends here -->
+          <footer>
+              <h6 class="text-center">Copyrights @LL All rights reserved..2021</h6>
+          </footer>
+
+          <a href="#top"><h5 class="text-end">Back to Top</h5></a>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
